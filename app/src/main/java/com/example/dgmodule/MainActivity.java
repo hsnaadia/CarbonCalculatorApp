@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //husna: documentation purpose
         // Initialize the database
         dailyGoalsdb = DGDatabase.getDatabase(this);
 
